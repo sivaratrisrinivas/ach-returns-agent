@@ -1,0 +1,11 @@
+name: evals
+on: [push, pull_request]
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run 128-case eval (LLM answers replayed from data/llm_cache.json)
+        run: python evals/run.py --require hybrid/dev=1.0 hybrid/heldout=0.95 hybrid/stress=0.9 rules/heldout=0.7
