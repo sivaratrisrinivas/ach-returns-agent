@@ -1,0 +1,975 @@
+{
+ "customers": [
+  {
+   "id": "SC001",
+   "name": "Mo Kim",
+   "type": "consumer",
+   "routing": "046285575",
+   "account": "250876053309",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC002",
+   "name": "Ivan Kim",
+   "type": "consumer",
+   "routing": "097175498",
+   "account": "592419093454",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC003",
+   "name": "Nia Ito",
+   "type": "consumer",
+   "routing": "102272189",
+   "account": "992246729335",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC004",
+   "name": "Gus Chen",
+   "type": "consumer",
+   "routing": "086926551",
+   "account": "933776706504",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC005",
+   "name": "Quinn Ruiz",
+   "type": "consumer",
+   "routing": "083317477",
+   "account": "45678924432",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC006",
+   "name": "Gus Haddad",
+   "type": "consumer",
+   "routing": "090847422",
+   "account": "569920330264",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC007",
+   "name": "Omar Patel",
+   "type": "consumer",
+   "routing": "061354122",
+   "account": "790933667405",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC008",
+   "name": "Fay Silva",
+   "type": "consumer",
+   "routing": "111845730",
+   "account": "121418265100",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC009",
+   "name": "Nia Ruiz",
+   "type": "consumer",
+   "routing": "076627158",
+   "account": "155988270979",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC010",
+   "name": "Kai Chen",
+   "type": "consumer",
+   "routing": "094250196",
+   "account": "989704883508",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC011",
+   "name": "Blue Fern LLC",
+   "type": "corporate",
+   "routing": "082700881",
+   "account": "445724411264",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC012",
+   "name": "Lena Novak",
+   "type": "consumer",
+   "routing": "011372866",
+   "account": "953359838031",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC013",
+   "name": "Nia Ruiz",
+   "type": "consumer",
+   "routing": "021244816",
+   "account": "323739572552",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC014",
+   "name": "Eli Okafor",
+   "type": "consumer",
+   "routing": "093346072",
+   "account": "549770407318",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC015",
+   "name": "Fay Ruiz",
+   "type": "consumer",
+   "routing": "093016904",
+   "account": "640998009523",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC016",
+   "name": "Mo Kim",
+   "type": "consumer",
+   "routing": "078532144",
+   "account": "586708884709",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC017",
+   "name": "Omar Okafor",
+   "type": "consumer",
+   "routing": "058950458",
+   "account": "248623479321",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC018",
+   "name": "Hana Kim",
+   "type": "consumer",
+   "routing": "054594070",
+   "account": "967711784821",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC019",
+   "name": "Kai Novak",
+   "type": "consumer",
+   "routing": "091334633",
+   "account": "988541103447",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC020",
+   "name": "Fay Smith",
+   "type": "consumer",
+   "routing": "077111883",
+   "account": "665338455642",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC021",
+   "name": "Kai Okafor",
+   "type": "consumer",
+   "routing": "060045209",
+   "account": "390412063157",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC022",
+   "name": "Fay Smith",
+   "type": "consumer",
+   "routing": "114369543",
+   "account": "828824950840",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC023",
+   "name": "Orbit Logistics",
+   "type": "corporate",
+   "routing": "070037948",
+   "account": "551238276822",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC024",
+   "name": "Quinn Smith",
+   "type": "consumer",
+   "routing": "117838576",
+   "account": "185642595569",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC025",
+   "name": "Ivan Kim",
+   "type": "consumer",
+   "routing": "085875933",
+   "account": "690475528365",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC026",
+   "name": "Ava Ruiz",
+   "type": "consumer",
+   "routing": "050792423",
+   "account": "37853014071",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC027",
+   "name": "Lena Silva",
+   "type": "consumer",
+   "routing": "119943786",
+   "account": "648298454915",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC028",
+   "name": "Dev Kim",
+   "type": "consumer",
+   "routing": "078275867",
+   "account": "289502629567",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC029",
+   "name": "Eli Novak",
+   "type": "consumer",
+   "routing": "127359333",
+   "account": "462232338635",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC030",
+   "name": "Ivan Okafor",
+   "type": "consumer",
+   "routing": "054856608",
+   "account": "931172507626",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC031",
+   "name": "Pia Ito",
+   "type": "consumer",
+   "routing": "119324635",
+   "account": "524625219075",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC032",
+   "name": "Ravi Okafor",
+   "type": "consumer",
+   "routing": "085485886",
+   "account": "125620249827",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC033",
+   "name": "Kai Patel",
+   "type": "consumer",
+   "routing": "107136916",
+   "account": "303936979990",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC034",
+   "name": "Kai Kim",
+   "type": "consumer",
+   "routing": "051740474",
+   "account": "645829864549",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC035",
+   "name": "Ben Patel",
+   "type": "consumer",
+   "routing": "065361742",
+   "account": "611873008934",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC036",
+   "name": "Omar Patel",
+   "type": "consumer",
+   "routing": "128126785",
+   "account": "251902184995",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC037",
+   "name": "Pia Chen",
+   "type": "consumer",
+   "routing": "052888733",
+   "account": "403253056669",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC038",
+   "name": "Fay Haddad",
+   "type": "consumer",
+   "routing": "118548014",
+   "account": "89196949324",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC039",
+   "name": "Eli Chen",
+   "type": "consumer",
+   "routing": "035718121",
+   "account": "35731289643",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC040",
+   "name": "Lena Okafor",
+   "type": "consumer",
+   "routing": "106378128",
+   "account": "179718257890",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC041",
+   "name": "Nia Okafor",
+   "type": "consumer",
+   "routing": "051882989",
+   "account": "124432420123",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC042",
+   "name": "Quinn Patel",
+   "type": "consumer",
+   "routing": "043951420",
+   "account": "752261991491",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC043",
+   "name": "Sana Novak",
+   "type": "consumer",
+   "routing": "128314539",
+   "account": "961365232355",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC044",
+   "name": "Fay Novak",
+   "type": "consumer",
+   "routing": "062652920",
+   "account": "646591121498",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC045",
+   "name": "Northwind Supply",
+   "type": "corporate",
+   "routing": "031391940",
+   "account": "13642852607",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC046",
+   "name": "Ravi Smith",
+   "type": "consumer",
+   "routing": "051296096",
+   "account": "471266463439",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC047",
+   "name": "Lena Chen",
+   "type": "consumer",
+   "routing": "107167587",
+   "account": "930075840411",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC048",
+   "name": "Mo Smith",
+   "type": "consumer",
+   "routing": "102376441",
+   "account": "166562297842",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC049",
+   "name": "Mo Kim",
+   "type": "consumer",
+   "routing": "097503743",
+   "account": "855274328399",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC050",
+   "name": "Nia Patel",
+   "type": "consumer",
+   "routing": "042535096",
+   "account": "287250147178",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC051",
+   "name": "Gus Chen",
+   "type": "consumer",
+   "routing": "036598272",
+   "account": "66715024113",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC052",
+   "name": "Ava Patel",
+   "type": "consumer",
+   "routing": "094150539",
+   "account": "494820991121",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC053",
+   "name": "Hana Haddad",
+   "type": "consumer",
+   "routing": "071385042",
+   "account": "102413721587",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC054",
+   "name": "Sana Novak",
+   "type": "consumer",
+   "routing": "047502231",
+   "account": "112045242327",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC055",
+   "name": "Eli Novak",
+   "type": "consumer",
+   "routing": "129410050",
+   "account": "191045516614",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC056",
+   "name": "Quinn Silva",
+   "type": "consumer",
+   "routing": "022461423",
+   "account": "577558578416",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "SC057",
+   "name": "Quinn Silva",
+   "type": "consumer",
+   "routing": "022533584",
+   "account": "354263196349",
+   "txn_code": "27",
+   "status": "active"
+  }
+ ],
+ "ledger": [
+  {
+   "trace": "091000010000001",
+   "customer_id": "SC001",
+   "amount_cents": 65624,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000002",
+   "customer_id": "SC002",
+   "amount_cents": 24050,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000003",
+   "customer_id": "SC003",
+   "amount_cents": 207152,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000004",
+   "customer_id": "SC004",
+   "amount_cents": 149113,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000005",
+   "customer_id": "SC005",
+   "amount_cents": 71121,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000006",
+   "customer_id": "SC006",
+   "amount_cents": 236493,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000007",
+   "customer_id": "SC007",
+   "amount_cents": 42655,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000008",
+   "customer_id": "SC008",
+   "amount_cents": 6608,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-08"
+  },
+  {
+   "trace": "091000010000009",
+   "customer_id": "SC009",
+   "amount_cents": 81714,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000010",
+   "customer_id": "SC010",
+   "amount_cents": 206863,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000011",
+   "customer_id": "SC011",
+   "amount_cents": 216803,
+   "sec": "CCD",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000012",
+   "customer_id": "SC012",
+   "amount_cents": 188814,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000013",
+   "customer_id": "SC013",
+   "amount_cents": 46148,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000014",
+   "customer_id": "SC014",
+   "amount_cents": 209681,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000015",
+   "customer_id": "SC015",
+   "amount_cents": 218748,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000016",
+   "customer_id": "SC016",
+   "amount_cents": 24791,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000017",
+   "customer_id": "SC017",
+   "amount_cents": 171775,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000018",
+   "customer_id": "SC018",
+   "amount_cents": 115270,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000019",
+   "customer_id": "SC019",
+   "amount_cents": 67827,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000020",
+   "customer_id": "SC020",
+   "amount_cents": 488,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000021",
+   "customer_id": "SC021",
+   "amount_cents": 780,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000022",
+   "customer_id": "SC022",
+   "amount_cents": 453,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000023",
+   "customer_id": "SC023",
+   "amount_cents": 101,
+   "sec": "CCD",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000024",
+   "customer_id": "SC024",
+   "amount_cents": 134485,
+   "sec": "WEB",
+   "attempts": 2,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000025",
+   "customer_id": "SC025",
+   "amount_cents": 162977,
+   "sec": "WEB",
+   "attempts": 2,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000026",
+   "customer_id": "SC026",
+   "amount_cents": 15786,
+   "sec": "WEB",
+   "attempts": 2,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000027",
+   "customer_id": "SC027",
+   "amount_cents": 151209,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000028",
+   "customer_id": "SC028",
+   "amount_cents": 121301,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000029",
+   "customer_id": "SC029",
+   "amount_cents": 147794,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000030",
+   "customer_id": "SC030",
+   "amount_cents": 233746,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000031",
+   "customer_id": "SC031",
+   "amount_cents": 174828,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000032",
+   "customer_id": "SC032",
+   "amount_cents": 86941,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000033",
+   "customer_id": "SC033",
+   "amount_cents": 166570,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000034",
+   "customer_id": "SC034",
+   "amount_cents": 241670,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000035",
+   "customer_id": "SC035",
+   "amount_cents": 198554,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000036",
+   "customer_id": "SC036",
+   "amount_cents": 211618,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000037",
+   "customer_id": "SC037",
+   "amount_cents": 19019,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000038",
+   "customer_id": "SC038",
+   "amount_cents": 195384,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000039",
+   "customer_id": "SC039",
+   "amount_cents": 199515,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000040",
+   "customer_id": "SC040",
+   "amount_cents": 89653,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000041",
+   "customer_id": "SC041",
+   "amount_cents": 38921,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000042",
+   "customer_id": "SC042",
+   "amount_cents": 208453,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000043",
+   "customer_id": "SC043",
+   "amount_cents": 233891,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000044",
+   "customer_id": "SC044",
+   "amount_cents": 12453,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000045",
+   "customer_id": "SC045",
+   "amount_cents": 231437,
+   "sec": "CCD",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000046",
+   "customer_id": "SC046",
+   "amount_cents": 210639,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000047",
+   "customer_id": "SC047",
+   "amount_cents": 88196,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000048",
+   "customer_id": "SC048",
+   "amount_cents": 182331,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000049",
+   "customer_id": "SC049",
+   "amount_cents": 60224,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000050",
+   "customer_id": "SC050",
+   "amount_cents": 43448,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000051",
+   "customer_id": "SC051",
+   "amount_cents": 231228,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000052",
+   "customer_id": "SC052",
+   "amount_cents": 19904,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000053",
+   "customer_id": "SC053",
+   "amount_cents": 97381,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000054",
+   "customer_id": "SC054",
+   "amount_cents": 114883,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000055",
+   "customer_id": "SC055",
+   "amount_cents": 220937,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000056",
+   "customer_id": "SC056",
+   "amount_cents": 59947,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000057",
+   "customer_id": "SC057",
+   "amount_cents": 201595,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-08"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ACH returns and NOC agent</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--mut:#8b949e;--g:#3fb950;--y:#d29922;--r:#f85149;--b:#58a6ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:18px 28px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:22px}header p{margin:4px 0 0;color:var(--mut)}
+main{display:grid;grid-template-columns:360px 1fr;gap:0;height:calc(100vh - 225px);min-height:480px}
+#q{overflow:auto;border-right:1px solid var(--line)}.it{padding:9px 16px;border-bottom:1px solid var(--line);cursor:pointer;display:flex;justify-content:space-between;gap:8px}
+.it:hover,.it.on{background:var(--card)}.it small{color:var(--mut);display:block}
+.tag{font:600 12px ui-monospace,monospace;padding:2px 8px;border-radius:10px;white-space:nowrap;height:fit-content}
+.RETRY{background:#1f6feb33;color:var(--b)}.BLOCK{background:#f8514933;color:var(--r)}.UPDATE{background:#d2992233;color:var(--y)}.ESCALATE{background:#a371f733;color:#d2a8ff}.NO_ACTION{background:#30363d;color:var(--mut)}
+#d{overflow:auto;padding:20px 28px}pre{background:var(--card);border:1px solid var(--line);padding:12px;border-radius:8px;white-space:pre-wrap;font:13px/1.4 ui-monospace,monospace;margin:6px 0 14px}
+.lab{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.06em}.big{font-size:20px;font-weight:600;margin:4px 0 12px}
+.gate{border:1px solid var(--y);border-radius:8px;padding:12px;margin:10px 0}.gate.done{border-color:var(--g)}
+button{background:var(--g);border:0;color:#04260f;font-weight:600;padding:7px 14px;border-radius:6px;cursor:pointer;margin-right:8px}button.no{background:#30363d;color:var(--fg)}
+.cmp{display:flex;gap:14px;margin:8px 0 14px}.cmp div{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+footer{padding:10px 28px;border-top:1px solid var(--line);color:var(--mut);font-size:13px}table{border-collapse:collapse}td,th{padding:2px 10px;text-align:right}th:first-child,td:first-child{text-align:left}
+</style></head><body>
+<header><h1>ACH returns and NOC agent</h1><p>Reads each return or notice of change, matches it to the ledger, applies the runbook, drafts the action. Money and account changes wait for a person. All data is synthetic.</p></header>
+<main><div id="q"></div><div id="d"></div></main>
+<footer id="f"></footer>
+<script src="data.js"></script>
+<script>
+const R=window.ROWS,S=window.SUMMARY,q=document.getElementById('q'),d=document.getElementById('d');const st={};
+const nice={return_code:'return code',noc_code:'notice of change',unauthorized_never_retry:'unauthorized, never retry',retry_limit:'retry limit hit',duplicate:'duplicate return',unmatched_trace:'unmatched trace',amount_mismatch:'amount mismatch',unknown_code:'unknown code',malformed_noc:'bad NOC data',noc_noop:'NOC already on file',messy_notice:'free-text bank notice',messy_hard:'tricky free-text notice'};
+R.forEach((r,i)=>{const e=document.createElement('div');e.className='it';e.id='i'+r.id;e.innerHTML=`<span>${r.id}<small>${nice[r.cat]} · ${r.code||'?'}</small></span><span class="tag ${r.action}">${r.action.replace('_',' ')}</span>`;e.onclick=()=>show(i);q.appendChild(e)});
+function show(i){const r=R[i];document.querySelectorAll('.it').forEach(x=>x.classList.remove('on'));const el=document.getElementById('i'+r.id);el.classList.add('on');el.scrollIntoView({block:'nearest'});
+const s=st[r.id];const gate=r.approval?`<div class="gate ${s?'done':''}" id="g"><b>${s?(s=='ok'?'Approved by analyst':'Rejected by analyst'):'Waiting for approval'}</b><br>${s?'':'<button onclick="ap(\''+r.id+'\',\'ok\','+i+')">Approve</button><button class=no onclick="ap(\''+r.id+'\',\'no\','+i+')">Reject</button>'}</div>`:`<div class="gate done"><b>No approval needed</b> (${r.action=='ESCALATE'?'sent to a human queue':'nothing changes'})</div>`;
+const cmp=r.cat.startsWith('messy')?`<div class="lab">How it was read</div><div class="cmp"><div>Keyword rules: <span class="tag ${r.kw_action}">${r.kw_action.replace('_',' ')}</span></div><div>LLM reader, then same runbook: <span class="tag ${r.action}">${r.action.replace('_',' ')}</span></div><div>Expected: <span class="tag ${r.expected}">${r.expected.replace('_',' ')}</span></div></div>`:'';
+d.innerHTML=`<div class="lab">${nice[r.cat]} · read by ${r.source}</div><div class="big"><span class="tag ${r.action}">${r.action.replace('_',' ')}</span> code ${r.code||'unclear'}</div>${cmp}<div class="lab">Input</div><pre>${r.raw.replace(/</g,'&lt;')}</pre><div class="lab">Drafted action</div><pre>${r.draft}</pre>${gate}`}
+function ap(id,v,i){st[id]=v;show(i)}
+const m=k=>S[k]?`${S[k].pass}/${S[k].n}`:'';
+document.getElementById('f').innerHTML=`<table><tr><th>Eval, 128 cases</th><th>dev</th><th>held-out</th><th>stress</th></tr>${['rules','rules_kw','hybrid'].map(x=>`<tr><td>${{rules:'Strict rules',rules_kw:'Rules + keywords',hybrid:'Rules + LLM reader'}[x]}</td><td>${m(x+'/dev')}</td><td>${m(x+'/heldout')}</td><td>${m(x+'/stress')}</td></tr>`).join('')}</table>`;
+const p=new URLSearchParams(location.search).get('case');show(Math.max(0,R.findIndex(r=>r.id==p)));
+</script></body></html>

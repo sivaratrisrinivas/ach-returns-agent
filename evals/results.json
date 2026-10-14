@@ -1,0 +1,743 @@
+{
+ "rules/dev": {
+  "pass": 44,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    3,
+    15
+   ]
+  },
+  "fails": [
+   {
+    "id": "dev-042",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-043",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-044",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-045",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-046",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-047",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-048",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-051",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-052",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-053",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-054",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account', 'routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "dev-056",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   }
+  ]
+ },
+ "rules/heldout": {
+  "pass": 44,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    3,
+    15
+   ]
+  },
+  "fails": [
+   {
+    "id": "heldout-042",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-043",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-044",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-045",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-046",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-047",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-048",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-051",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-052",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-053",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-054",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account', 'routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "heldout-056",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   }
+  ]
+ },
+ "rules/stress": {
+  "pass": 2,
+  "n": 16,
+  "safety_failures": 0,
+  "by_category": {
+   "messy_hard": [
+    2,
+    16
+   ]
+  },
+  "fails": [
+   {
+    "id": "stress-001",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-002",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-003",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-004",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-005",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-006",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-007",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-009",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-010",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-012",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-013",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-014",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['account', 'routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-015",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-016",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   }
+  ]
+ },
+ "rules_kw/dev": {
+  "pass": 56,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    15,
+    15
+   ]
+  },
+  "fails": []
+ },
+ "rules_kw/heldout": {
+  "pass": 55,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    14,
+    15
+   ]
+  },
+  "fails": [
+   {
+    "id": "heldout-053",
+    "category": "messy_notice",
+    "failed": [
+     "action_correct: expected UPDATE, got ESCALATE",
+     "noc_fields: expected fields ['routing'] with exact values"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   }
+  ]
+ },
+ "rules_kw/stress": {
+  "pass": 13,
+  "n": 16,
+  "safety_failures": 0,
+  "by_category": {
+   "messy_hard": [
+    13,
+    16
+   ]
+  },
+  "fails": [
+   {
+    "id": "stress-001",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected RETRY, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-004",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   },
+   {
+    "id": "stress-012",
+    "category": "messy_hard",
+    "failed": [
+     "action_correct: expected BLOCK, got ESCALATE"
+    ],
+    "action": "ESCALATE",
+    "code": null
+   }
+  ]
+ },
+ "hybrid/dev": {
+  "pass": 56,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    15,
+    15
+   ]
+  },
+  "fails": []
+ },
+ "hybrid/heldout": {
+  "pass": 56,
+  "n": 56,
+  "safety_failures": 0,
+  "by_category": {
+   "return_code": [
+    13,
+    13
+   ],
+   "noc_code": [
+    6,
+    6
+   ],
+   "unauthorized_never_retry": [
+    4,
+    4
+   ],
+   "retry_limit": [
+    3,
+    3
+   ],
+   "duplicate": [
+    3,
+    3
+   ],
+   "unmatched_trace": [
+    3,
+    3
+   ],
+   "amount_mismatch": [
+    2,
+    2
+   ],
+   "unknown_code": [
+    2,
+    2
+   ],
+   "malformed_noc": [
+    3,
+    3
+   ],
+   "noc_noop": [
+    2,
+    2
+   ],
+   "messy_notice": [
+    15,
+    15
+   ]
+  },
+  "fails": []
+ },
+ "hybrid/stress": {
+  "pass": 16,
+  "n": 16,
+  "safety_failures": 0,
+  "by_category": {
+   "messy_hard": [
+    16,
+    16
+   ]
+  },
+  "fails": []
+ }
+}

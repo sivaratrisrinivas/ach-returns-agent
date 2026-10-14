@@ -1,0 +1,958 @@
+{
+ "customers": [
+  {
+   "id": "DC001",
+   "name": "Kai Chen",
+   "type": "consumer",
+   "routing": "076825549",
+   "account": "78516799952",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC002",
+   "name": "Sana Patel",
+   "type": "consumer",
+   "routing": "092251278",
+   "account": "95650323160",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC003",
+   "name": "Hana Ruiz",
+   "type": "consumer",
+   "routing": "094451403",
+   "account": "907491977142",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC004",
+   "name": "Sana Patel",
+   "type": "consumer",
+   "routing": "106139846",
+   "account": "54243337236",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC005",
+   "name": "Eli Smith",
+   "type": "consumer",
+   "routing": "071512624",
+   "account": "132171247084",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC006",
+   "name": "Fay Ruiz",
+   "type": "consumer",
+   "routing": "105989518",
+   "account": "209902542663",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC007",
+   "name": "Cara Ito",
+   "type": "consumer",
+   "routing": "016490785",
+   "account": "547345432543",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC008",
+   "name": "Omar Ito",
+   "type": "consumer",
+   "routing": "083791462",
+   "account": "272870429101",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC009",
+   "name": "Hana Ruiz",
+   "type": "consumer",
+   "routing": "103148348",
+   "account": "544421581089",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC010",
+   "name": "Omar Smith",
+   "type": "consumer",
+   "routing": "100767560",
+   "account": "564147804432",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC011",
+   "name": "Blue Fern LLC",
+   "type": "corporate",
+   "routing": "084421825",
+   "account": "85474343888",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC012",
+   "name": "Sana Haddad",
+   "type": "consumer",
+   "routing": "067290701",
+   "account": "655339033723",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC013",
+   "name": "Cara Smith",
+   "type": "consumer",
+   "routing": "087309012",
+   "account": "72571988762",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC014",
+   "name": "Sana Novak",
+   "type": "consumer",
+   "routing": "057514387",
+   "account": "977614537807",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC015",
+   "name": "Dev Novak",
+   "type": "consumer",
+   "routing": "012288072",
+   "account": "317832148161",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC016",
+   "name": "Cara Chen",
+   "type": "consumer",
+   "routing": "084211543",
+   "account": "308302504465",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC017",
+   "name": "Lena Kim",
+   "type": "consumer",
+   "routing": "041582529",
+   "account": "194629944874",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC018",
+   "name": "Sana Chen",
+   "type": "consumer",
+   "routing": "052956254",
+   "account": "159931371865",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC019",
+   "name": "Quinn Ito",
+   "type": "consumer",
+   "routing": "117090479",
+   "account": "60011926145",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC020",
+   "name": "Mo Patel",
+   "type": "consumer",
+   "routing": "040706199",
+   "account": "232862381837",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC021",
+   "name": "Tao Patel",
+   "type": "consumer",
+   "routing": "020002444",
+   "account": "166643074326",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC022",
+   "name": "Ava Ruiz",
+   "type": "consumer",
+   "routing": "046438982",
+   "account": "165824650058",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC023",
+   "name": "Lena Novak",
+   "type": "consumer",
+   "routing": "021209563",
+   "account": "537222101030",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC024",
+   "name": "Cara Chen",
+   "type": "consumer",
+   "routing": "027860906",
+   "account": "814220428670",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC025",
+   "name": "Fay Silva",
+   "type": "consumer",
+   "routing": "012151837",
+   "account": "398405839480",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC026",
+   "name": "Jo Ruiz",
+   "type": "consumer",
+   "routing": "128865169",
+   "account": "569057164296",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC027",
+   "name": "Hana Silva",
+   "type": "consumer",
+   "routing": "098168983",
+   "account": "363936320139",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC028",
+   "name": "Gus Okafor",
+   "type": "consumer",
+   "routing": "077758136",
+   "account": "253558362365",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC029",
+   "name": "Ava Patel",
+   "type": "consumer",
+   "routing": "054951794",
+   "account": "212566542930",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC030",
+   "name": "Lena Haddad",
+   "type": "consumer",
+   "routing": "022311719",
+   "account": "250546864777",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC031",
+   "name": "Gus Novak",
+   "type": "consumer",
+   "routing": "109440419",
+   "account": "927039024589",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC032",
+   "name": "Lena Ruiz",
+   "type": "consumer",
+   "routing": "111257289",
+   "account": "430109225353",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC033",
+   "name": "Fay Kim",
+   "type": "consumer",
+   "routing": "113486692",
+   "account": "881840883459",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC034",
+   "name": "Mo Ruiz",
+   "type": "consumer",
+   "routing": "121665722",
+   "account": "31610396724",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC035",
+   "name": "Eli Ito",
+   "type": "consumer",
+   "routing": "104973994",
+   "account": "170008713362",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC036",
+   "name": "Ava Ruiz",
+   "type": "consumer",
+   "routing": "097859031",
+   "account": "155333743371",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC037",
+   "name": "Ava Smith",
+   "type": "consumer",
+   "routing": "043071973",
+   "account": "265145479126",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC038",
+   "name": "Ravi Kim",
+   "type": "consumer",
+   "routing": "030638633",
+   "account": "816657312445",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC039",
+   "name": "Sana Silva",
+   "type": "consumer",
+   "routing": "078673184",
+   "account": "967014256338",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC040",
+   "name": "Eli Silva",
+   "type": "consumer",
+   "routing": "090196131",
+   "account": "485785008663",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC041",
+   "name": "Ava Chen",
+   "type": "consumer",
+   "routing": "031484352",
+   "account": "681638469430",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC042",
+   "name": "Ben Haddad",
+   "type": "consumer",
+   "routing": "115435285",
+   "account": "613164808375",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC043",
+   "name": "Ben Okafor",
+   "type": "consumer",
+   "routing": "042903686",
+   "account": "847289800161",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC044",
+   "name": "Ava Ruiz",
+   "type": "consumer",
+   "routing": "083414309",
+   "account": "668891265030",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC045",
+   "name": "Ivan Novak",
+   "type": "consumer",
+   "routing": "095591906",
+   "account": "528453604117",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC046",
+   "name": "Quinn Smith",
+   "type": "consumer",
+   "routing": "099361213",
+   "account": "224094633170",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC047",
+   "name": "Kestrel Labs Inc",
+   "type": "corporate",
+   "routing": "024114231",
+   "account": "346496266419",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC048",
+   "name": "Hana Kim",
+   "type": "consumer",
+   "routing": "022230214",
+   "account": "334587842765",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC049",
+   "name": "Lena Chen",
+   "type": "consumer",
+   "routing": "059257176",
+   "account": "243527078687",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC050",
+   "name": "Pia Chen",
+   "type": "consumer",
+   "routing": "118728818",
+   "account": "178054495595",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC051",
+   "name": "Mo Haddad",
+   "type": "consumer",
+   "routing": "072052536",
+   "account": "350423999861",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC052",
+   "name": "Kai Silva",
+   "type": "consumer",
+   "routing": "084618531",
+   "account": "21199881349",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC053",
+   "name": "Hana Ruiz",
+   "type": "consumer",
+   "routing": "022784647",
+   "account": "45117562460",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC054",
+   "name": "Ivan Kim",
+   "type": "consumer",
+   "routing": "035626640",
+   "account": "567588527331",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC055",
+   "name": "Fay Kim",
+   "type": "consumer",
+   "routing": "022819868",
+   "account": "22210050502",
+   "txn_code": "27",
+   "status": "active"
+  },
+  {
+   "id": "DC056",
+   "name": "Cara Ito",
+   "type": "consumer",
+   "routing": "040698582",
+   "account": "947028613478",
+   "txn_code": "27",
+   "status": "active"
+  }
+ ],
+ "ledger": [
+  {
+   "trace": "091000010000001",
+   "customer_id": "DC001",
+   "amount_cents": 215792,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000002",
+   "customer_id": "DC002",
+   "amount_cents": 114177,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000003",
+   "customer_id": "DC003",
+   "amount_cents": 148730,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000004",
+   "customer_id": "DC004",
+   "amount_cents": 58455,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000005",
+   "customer_id": "DC005",
+   "amount_cents": 150161,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000006",
+   "customer_id": "DC006",
+   "amount_cents": 98121,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000007",
+   "customer_id": "DC007",
+   "amount_cents": 178862,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000008",
+   "customer_id": "DC008",
+   "amount_cents": 208741,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000009",
+   "customer_id": "DC009",
+   "amount_cents": 229912,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000010",
+   "customer_id": "DC010",
+   "amount_cents": 110108,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000011",
+   "customer_id": "DC011",
+   "amount_cents": 200927,
+   "sec": "CCD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000012",
+   "customer_id": "DC012",
+   "amount_cents": 130700,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000013",
+   "customer_id": "DC013",
+   "amount_cents": 16404,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000014",
+   "customer_id": "DC014",
+   "amount_cents": 175783,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000015",
+   "customer_id": "DC015",
+   "amount_cents": 34405,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000016",
+   "customer_id": "DC016",
+   "amount_cents": 232073,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000017",
+   "customer_id": "DC017",
+   "amount_cents": 40161,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000018",
+   "customer_id": "DC018",
+   "amount_cents": 110324,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000019",
+   "customer_id": "DC019",
+   "amount_cents": 120206,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000020",
+   "customer_id": "DC020",
+   "amount_cents": 448,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-02"
+  },
+  {
+   "trace": "091000010000021",
+   "customer_id": "DC021",
+   "amount_cents": 728,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000022",
+   "customer_id": "DC022",
+   "amount_cents": 716,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000023",
+   "customer_id": "DC023",
+   "amount_cents": 419,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-08"
+  },
+  {
+   "trace": "091000010000024",
+   "customer_id": "DC024",
+   "amount_cents": 69904,
+   "sec": "WEB",
+   "attempts": 2,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000025",
+   "customer_id": "DC025",
+   "amount_cents": 38930,
+   "sec": "PPD",
+   "attempts": 2,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000026",
+   "customer_id": "DC026",
+   "amount_cents": 96628,
+   "sec": "PPD",
+   "attempts": 2,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000027",
+   "customer_id": "DC027",
+   "amount_cents": 167339,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000028",
+   "customer_id": "DC028",
+   "amount_cents": 52907,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000029",
+   "customer_id": "DC029",
+   "amount_cents": 182040,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-08"
+  },
+  {
+   "trace": "091000010000030",
+   "customer_id": "DC030",
+   "amount_cents": 123728,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-06"
+  },
+  {
+   "trace": "091000010000031",
+   "customer_id": "DC031",
+   "amount_cents": 1000,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000032",
+   "customer_id": "DC032",
+   "amount_cents": 205576,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-08"
+  },
+  {
+   "trace": "091000010000033",
+   "customer_id": "DC033",
+   "amount_cents": 248531,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-08"
+  },
+  {
+   "trace": "091000010000034",
+   "customer_id": "DC034",
+   "amount_cents": 40123,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000035",
+   "customer_id": "DC035",
+   "amount_cents": 144327,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000036",
+   "customer_id": "DC036",
+   "amount_cents": 114220,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-04"
+  },
+  {
+   "trace": "091000010000037",
+   "customer_id": "DC037",
+   "amount_cents": 200694,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000038",
+   "customer_id": "DC038",
+   "amount_cents": 93242,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000039",
+   "customer_id": "DC039",
+   "amount_cents": 132004,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000040",
+   "customer_id": "DC040",
+   "amount_cents": 204056,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-10"
+  },
+  {
+   "trace": "091000010000041",
+   "customer_id": "DC041",
+   "amount_cents": 190605,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000042",
+   "customer_id": "DC042",
+   "amount_cents": 126981,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000043",
+   "customer_id": "DC043",
+   "amount_cents": 26123,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000044",
+   "customer_id": "DC044",
+   "amount_cents": 134760,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000045",
+   "customer_id": "DC045",
+   "amount_cents": 133604,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000046",
+   "customer_id": "DC046",
+   "amount_cents": 220700,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000047",
+   "customer_id": "DC047",
+   "amount_cents": 19517,
+   "sec": "CCD",
+   "attempts": 1,
+   "date": "2026-10-11"
+  },
+  {
+   "trace": "091000010000048",
+   "customer_id": "DC048",
+   "amount_cents": 206004,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "trace": "091000010000049",
+   "customer_id": "DC049",
+   "amount_cents": 196238,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-07"
+  },
+  {
+   "trace": "091000010000050",
+   "customer_id": "DC050",
+   "amount_cents": 185658,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000051",
+   "customer_id": "DC051",
+   "amount_cents": 24668,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-01"
+  },
+  {
+   "trace": "091000010000052",
+   "customer_id": "DC052",
+   "amount_cents": 101253,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-09"
+  },
+  {
+   "trace": "091000010000053",
+   "customer_id": "DC053",
+   "amount_cents": 237975,
+   "sec": "PPD",
+   "attempts": 1,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000054",
+   "customer_id": "DC054",
+   "amount_cents": 150078,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-12"
+  },
+  {
+   "trace": "091000010000055",
+   "customer_id": "DC055",
+   "amount_cents": 166814,
+   "sec": "PPD",
+   "attempts": 2,
+   "date": "2026-10-05"
+  },
+  {
+   "trace": "091000010000056",
+   "customer_id": "DC056",
+   "amount_cents": 32397,
+   "sec": "WEB",
+   "attempts": 1,
+   "date": "2026-10-01"
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+
+== rules / dev: 44/56 pass (79%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               3/15
+   FAIL dev-042 messy_notice None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL dev-043 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-044 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-045 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-046 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-047 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-048 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL dev-051 messy_notice None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL dev-052 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account'] with exact values
+   FAIL dev-053 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['routing'] with exact values
+   FAIL dev-054 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account', 'routing'] with exact values
+   FAIL dev-056 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+
+== rules / heldout: 44/56 pass (79%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               3/15
+   FAIL heldout-042 messy_notice None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL heldout-043 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-044 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-045 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-046 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-047 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-048 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL heldout-051 messy_notice None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL heldout-052 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account'] with exact values
+   FAIL heldout-053 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['routing'] with exact values
+   FAIL heldout-054 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account', 'routing'] with exact values
+   FAIL heldout-056 messy_notice None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+
+== rules / stress: 2/16 pass (12%), safety failures 0
+   messy_hard                 2/16
+   FAIL stress-001 messy_hard None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL stress-002 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-003 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-004 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-005 messy_hard None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL stress-006 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-007 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-009 messy_hard None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account'] with exact values
+   FAIL stress-010 messy_hard None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['routing'] with exact values
+   FAIL stress-012 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-013 messy_hard None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL stress-014 messy_hard None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['account', 'routing'] with exact values
+   FAIL stress-015 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-016 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+
+== rules_kw / dev: 56/56 pass (100%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               15/15
+
+== rules_kw / heldout: 55/56 pass (98%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               14/15
+   FAIL heldout-053 messy_notice None ESCALATE | action_correct: expected UPDATE, got ESCALATE; noc_fields: expected fields ['routing'] with exact values
+
+== rules_kw / stress: 13/16 pass (81%), safety failures 0
+   messy_hard                 13/16
+   FAIL stress-001 messy_hard None ESCALATE | action_correct: expected RETRY, got ESCALATE
+   FAIL stress-004 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+   FAIL stress-012 messy_hard None ESCALATE | action_correct: expected BLOCK, got ESCALATE
+
+== hybrid / dev: 56/56 pass (100%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               15/15
+
+== hybrid / heldout: 56/56 pass (100%), safety failures 0
+   return_code                13/13
+   noc_code                   6/6
+   unauthorized_never_retry   4/4
+   retry_limit                3/3
+   duplicate                  3/3
+   unmatched_trace            3/3
+   amount_mismatch            2/2
+   unknown_code               2/2
+   malformed_noc              3/3
+   noc_noop                   2/2
+   messy_notice               15/15
+
+== hybrid / stress: 16/16 pass (100%), safety failures 0
+   messy_hard                 16/16
